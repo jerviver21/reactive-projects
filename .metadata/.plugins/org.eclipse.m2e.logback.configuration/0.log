@@ -1,0 +1,35 @@
+2019-09-25 17:36:55,028 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-25 17:37:38,278 [Worker-2: Creating project "pub-sub-s4"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring.reactive.examples:pub-sub-s4:0.0.1-SNAPSHOT @ /home/jerson/workspace_spring_reactive/pub-sub-s4/pom.xml.
+2019-09-25 17:37:38,937 [Worker-2: Creating project "pub-sub-s4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pub-sub-s4/src/main/java
+2019-09-25 17:37:38,940 [Worker-2: Creating project "pub-sub-s4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pub-sub-s4/src/main/resources
+2019-09-25 17:37:38,941 [Worker-2: Creating project "pub-sub-s4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pub-sub-s4/src/test/java
+2019-09-25 17:37:38,941 [Worker-2: Creating project "pub-sub-s4"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pub-sub-s4/src/test/resources
+2019-09-25 17:37:40,547 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-25 17:37:40,552 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:37:40,554 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-25 17:37:40,555 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:37:57,671 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring.reactive.examples:observer:0.0.1-SNAPSHOT @ /home/jerson/workspace_spring_reactive/observer/pom.xml.
+2019-09-25 17:37:59,056 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:37:59,056 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:37:59,058 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:37:59,058 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:38:34,602 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:38:34,609 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:38:34,611 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:38:34,611 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:08,461 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:39:08,461 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:08,463 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:39:08,463 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:08,477 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-25 17:39:08,478 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:08,479 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-25 17:39:08,480 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:33,291 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:39:33,291 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:33,292 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:39:33,292 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:40,625 [Worker-4: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:39:40,625 [Worker-4: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-25 17:39:40,626 [Worker-4: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-25 17:39:40,627 [Worker-4: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

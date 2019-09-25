@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1569451059967">\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n<vm id\="1569451059967" name\="jdk8u192-b12" path\="/opt/java/jdk8u192-b12"/>\n<vm id\="1569451124988" javadocURL\="https\://docs.oracle.com/en/java/javase/12/docs/api/" name\="jdk-12.0.1" path\="/opt/java/jdk-12.0.1"/>\n</vmType>\n</vmSettings>\n
