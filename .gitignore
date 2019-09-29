@@ -12,3 +12,7 @@ pub-sub-s4/target/
 pub-sub-s4/.settings/
 pub-sub-s4/.classpath
 pub-sub-s4/.project
+reactive-ex-with-rxjava/.settings/
+reactive-ex-with-rxjava/target/
+reactive-ex-with-rxjava/.classpath
+reactive-ex-with-rxjava/.project

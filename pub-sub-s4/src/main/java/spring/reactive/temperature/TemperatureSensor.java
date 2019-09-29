@@ -10,6 +10,7 @@ import javax.annotation.PostConstruct;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class TemperatureSensor {
 	
