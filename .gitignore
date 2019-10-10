@@ -16,3 +16,7 @@ reactive-ex-with-rxjava/.settings/
 reactive-ex-with-rxjava/target/
 reactive-ex-with-rxjava/.classpath
 reactive-ex-with-rxjava/.project
+reactive_streams/.settings/
+reactive_streams/target/
+reactive_streams/.classpath
+reactive_streams/.project
