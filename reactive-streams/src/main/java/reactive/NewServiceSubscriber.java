@@ -26,6 +26,7 @@ public class NewServiceSubscriber implements Subscriber<NewsLetter>{
 
 	@Override
 	public void onNext(NewsLetter item) {
+		System.out.println("Adding.... "+item);
 		this.mailbox.offer(item);
 	}
 
@@ -41,9 +42,12 @@ public class NewServiceSubscriber implements Subscriber<NewsLetter>{
 	
 	
 	public Optional<NewsLetter> eventuallyReadDigest() {
+		
 		NewsLetter letter = mailbox.poll();
+		System.out.println("Reading.... "+letter);
 		if(letter == null) {
 			if(remaining.decrementAndGet() == 0) {
+				System.out.println("------Done!-------");
 				subscription.request(take);
 				remaining.set(take);
 			}
