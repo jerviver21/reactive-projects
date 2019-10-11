@@ -2,6 +2,7 @@ package reactive;
 
 import java.util.concurrent.Flow.Publisher;
 import java.util.concurrent.Flow.Subscriber;
+import java.util.concurrent.Flow.Subscription;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
@@ -16,9 +17,8 @@ public class NewServicePublisher implements Publisher<NewsLetter>{
 	@Override
 	public void subscribe(Subscriber<? super NewsLetter> subscriber) {
 		try {
-            Stream<NewsLetter> stream = streamSupplier.get();
-            stream.forEach(subscriber::onNext);
-            subscriber.onComplete();
+			Subscription subscription = new NewsSubscription((Subscriber<NewsLetter>) subscriber, streamSupplier);
+			subscriber.onSubscribe(subscription);
         } catch (Throwable e) {
             subscriber.onError(e);
         }

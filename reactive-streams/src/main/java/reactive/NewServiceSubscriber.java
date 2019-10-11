@@ -16,6 +16,7 @@ public class NewServiceSubscriber implements Subscriber<NewsLetter>{
 	
 	public NewServiceSubscriber(int take) {
 		this.take = take;
+		remaining.set(take);
 	}
  
 	@Override
@@ -45,7 +46,7 @@ public class NewServiceSubscriber implements Subscriber<NewsLetter>{
 		
 		NewsLetter letter = mailbox.poll();
 		System.out.println("Reading.... "+letter);
-		if(letter == null) {
+		if(letter != null) {
 			if(remaining.decrementAndGet() == 0) {
 				System.out.println("------Done!-------");
 				subscription.request(take);
